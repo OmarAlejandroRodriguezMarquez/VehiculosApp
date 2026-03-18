@@ -1,0 +1,125 @@
+## =========================
+## GENERAL .NET
+## =========================
+
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code / VS
+.vs/
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+## =========================
+## ASP.NET / BACKEND
+## =========================
+
+# Build results
+publish/
+wwwroot/lib/
+
+# Entity Framework
+*.mdf
+*.ldf
+
+## =========================
+## .NET MAUI / MOBILE
+## =========================
+
+# Build folders
+*/bin/
+*/obj/
+
+# Android
+*.apk
+*.aab
+*.keystore
+*.jks
+*.dex
+*.class
+*.gradle/
+.gradle/
+
+# iOS
+*.ipa
+*.app
+*.dSYM/
+*.xcarchive
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+
+# MacCatalyst
+*.app/
+
+# Windows
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# MAUI specific
+*.pdb
+*.cache
+*.tmp
+
+## =========================
+## NUGET
+## =========================
+
+# Packages
+*.nupkg
+*.snupkg
+
+# NuGet cache
+.nuget/
+packages/
+
+# NuGet config (opcional si tienes feeds privados)
+# nuget.config
+
+## =========================
+## FRONTEND (si usas algo extra tipo Angular/React dentro del ASP)
+## =========================
+
+node_modules/
+dist/
+build/
+
+## =========================
+## DOCKER
+## =========================
+
+docker-compose.override.yml
+*.dockerfile
+.docker/
+
+## =========================
+## TEST / COVERAGE
+## =========================
+
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## =========================
+## OTROS
+## =========================
+
+*.swp
+*.bak
+*.tmp
+*.cache
